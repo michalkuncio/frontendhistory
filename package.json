@@ -13,9 +13,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0",
     "eslint": "^8.52.0",
+    "eslint-plugin-nuxt": "^4.0.0",
     "nuxt": "^3.8.0",
     "stylelint": "^15.11.0",
     "stylelint-config-recommended-vue": "^1.5.0",
@@ -25,9 +27,5 @@
   },
   "volta": {
     "node": "18.18.2"
-  },
-  "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "eslint-plugin-nuxt": "^4.0.0"
   }
 }
