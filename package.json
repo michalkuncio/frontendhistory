@@ -1,5 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "frontendhistory",
+  "author": "Michal Kuncio",
+  "homepage": "",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,8 +13,21 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@vueuse/core": "^10.5.0",
+    "@vueuse/nuxt": "^10.5.0",
+    "eslint": "^8.52.0",
     "nuxt": "^3.8.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard-scss": "^11.0.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "volta": {
+    "node": "18.18.2"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "eslint-plugin-nuxt": "^4.0.0"
   }
 }
