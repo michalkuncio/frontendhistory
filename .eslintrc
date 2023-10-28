@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "@nuxtjs/eslint-config-typescript",
+        "plugin:nuxt/recommended"
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "vue/html-indent": ["error", 4],
+        "vue/multi-word-component-names": "off",
+        "vue/html-self-closing": ["error", {
+                "html": {
+                "void": "never",
+                "normal": "always",
+                "component": "always"
+            },
+            "svg": "always",
+            "math": "always"
+        }],
+        "vue/no-multiple-template-root": "off",
+        "vue/max-attributes-per-line": ["error", {
+            "singleline": { "max": 5 },
+            "multiline": { "max": 1 }
+        }],
+        "no-console": "off",
+        "semi": ["error", "always"]
+    }
+}

@@ -1,0 +1,22 @@
+@import "variables.css";
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap';
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Inter, sans-serif;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--text-color);
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
