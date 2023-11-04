@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <span class="created-by">Created by Michał Kuncio</span>
+        <span class="created-by">Created by <a href="https://michalkuncio.com/" target="_blank">Michał Kuncio</a></span>
         <a href="https://michalkuncio.com/" target="_blank"><IconsIconWebsite /></a>
         <a href="https://twitter.com/michalkuncio" target="_blank"><IconsIconX /></a>
     </footer>
@@ -31,7 +31,7 @@ svg {
 }
 
 a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 </style>

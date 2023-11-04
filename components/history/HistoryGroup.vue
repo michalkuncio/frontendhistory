@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useIntersectionObserver } from '@vueuse/core';
+import type { HistoryItem } from './history.types';
 
 const props = defineProps<{
     year: string;
@@ -9,14 +10,9 @@ const emit = defineEmits<{
   scrollEnd: [year: string]
 }>();
 
-interface HistoryItem {
-    date: string;
-    title: string;
-    link: string;
-    icon: string;
-}
-
-const { data: historyItems } = await useFetch<HistoryItem[]>(`/year/${props.year}`);
+const { data: historyItems, pending } = await useFetch<HistoryItem[]>(`/year/${props.year}`, {
+    lazy: true
+});
 
 const intersectionHelper = ref(null);
 
@@ -37,7 +33,8 @@ const { stop } = useIntersectionObserver(
         <div class="year">
             {{ year }}
         </div>
-        <div class="history-items">
+        <Loader v-if="pending" />
+        <div v-else class="history-items">
             <HistoryLine />
             <HistoryItem v-for="(historyItem, index) in historyItems" :key="historyItem.date" :history-item="historyItem" :index="index" />
         </div>

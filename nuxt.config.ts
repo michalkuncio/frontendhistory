@@ -3,5 +3,9 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: [
         '@vueuse/nuxt'
-    ]
+    ],
+    routeRules: {
+        '/about': { prerender: true },
+        '/contribute': { prerender: true }
+    }
 });

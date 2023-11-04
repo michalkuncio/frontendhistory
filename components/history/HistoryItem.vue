@@ -1,16 +1,15 @@
 <script setup lang="ts">
-interface HistoryItem {
-    date: string;
-    title: string;
-    link: string;
-    icon: string;
-}
+import { useDateFormat } from '@vueuse/core';
+import type { HistoryItem } from './history.types';
+
 interface Props {
     historyItem: HistoryItem
     index: number
 }
 
 const props = defineProps<Props>();
+
+const dateFormatted = useDateFormat(props.historyItem.date, 'DD.MM');
 
 const right = !!(props.index & 1);
 
@@ -22,7 +21,7 @@ const iconComponent = computed(() => {
 
 <template>
     <div class="history-item" :class="{right: right}">
-        <span v-if="right" class="date">14.10.1991</span>
+        <span v-if="right" class="date">{{ dateFormatted }}</span>
 
         <div class="history-item-card">
             <div class="icon-wrapper">
@@ -34,7 +33,7 @@ const iconComponent = computed(() => {
             </div>
         </div>
 
-        <span v-if="!right" class="date">14.10.1991</span>
+        <span v-if="!right" class="date">{{ dateFormatted }}</span>
     </div>
 </template>
 
@@ -106,10 +105,13 @@ const iconComponent = computed(() => {
 
 .icon-wrapper {
     width: 40px;
+    height: 40px;
 }
 
 .icon-wrapper svg {
     fill: var(--white);
+    height: 40px;
+    width: 40px;
 }
 
 .info {
