@@ -1,5 +1,5 @@
 export interface HistoryItem {
-    date: string;
+    date?: string;
     title: string;
     link: string;
     icon: string;

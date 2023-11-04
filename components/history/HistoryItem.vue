@@ -9,7 +9,7 @@ interface Props {
 
 const props = defineProps<Props>();
 
-const dateFormatted = useDateFormat(props.historyItem.date, 'DD.MM');
+const dateFormatted = props.historyItem.date ? useDateFormat(props.historyItem.date, 'DD.MM') : 'no exact date';
 
 const right = !!(props.index & 1);
 
@@ -28,7 +28,7 @@ const iconComponent = computed(() => {
                 <component :is="iconComponent" />
             </div>
             <div class="info">
-                <span>{{ historyItem.title }}</span>
+                <span class="history-item-title">{{ historyItem.title }}</span>
                 <a :href="historyItem.link" target="_blank">more</a>
             </div>
         </div>
@@ -88,7 +88,7 @@ const iconComponent = computed(() => {
 .history-item-card::after {
     content: '';
     height: 5px;
-    width: 37px;
+    width: 32px;
     position: absolute;
     background: var(--gray-dark);
     left: -37px;
@@ -98,7 +98,7 @@ const iconComponent = computed(() => {
 
 @media (width >= 768px) {
     .history-item-card::after {
-        right: -24px;
+        right: -32px;
         left: unset;
     }
 }
@@ -117,10 +117,16 @@ const iconComponent = computed(() => {
 .info {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+.history-item-title {
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .info a {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .date {
