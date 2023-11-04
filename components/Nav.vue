@@ -3,13 +3,18 @@
         <NuxtLink to="/">
             Home
         </NuxtLink>
+
         <NuxtLink to="/about">
             About
         </NuxtLink>
+
         <NuxtLink to="/contributions">
             Contributions
         </NuxtLink>
-        <a href=""><IconsIconGithub /></a>
+
+        <a href="https://github.com/michalkuncio/frontendhistory" target="_blank">
+            <IconsIconGithub />
+        </a>
     </nav>
 </template>
 
