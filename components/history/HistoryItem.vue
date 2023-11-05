@@ -28,8 +28,8 @@ const iconComponent = computed(() => {
                 <component :is="iconComponent" />
             </div>
             <div class="info">
-                <span class="history-item-title">{{ historyItem.title }}</span>
-                <a :href="historyItem.link" target="_blank">more</a>
+                <a v-if="historyItem.link" :href="historyItem.link" target="_blank" class="history-item-title">{{ historyItem.title }}</a>
+                <span v-else :href="historyItem.link" class="history-item-title">{{ historyItem.title }}</span>
             </div>
         </div>
 
@@ -124,6 +124,7 @@ const iconComponent = computed(() => {
 
 .history-item-title {
     font-size: 14px;
+    color: var(--white);
 }
 
 .info a {
