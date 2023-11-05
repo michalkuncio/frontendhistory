@@ -10,7 +10,7 @@
     width: 4px;
     height: 100%;
     position: absolute;
-    left: 20px;
+    left: 23px;
     border-radius: 10px;
     background: linear-gradient(-45deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3), var(--gradient-color-4));
 

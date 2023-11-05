@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import '@fontsource/inter';
+import '@fontsource/inter/800.css';
 import './assets/style.css';
 import MainLayout from './layouts/MainLayout.vue';
 
