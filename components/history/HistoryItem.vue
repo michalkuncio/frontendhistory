@@ -21,19 +21,19 @@ const iconComponent = computed(() => {
 
 <template>
     <div class="history-item" :class="{right: right}">
-        <span v-if="right" class="date">{{ dateFormatted }}</span>
+        <span v-if="right" class="date" :class="{'no-exact': !props.historyItem.date}">{{ dateFormatted }}</span>
 
         <div class="history-item-card">
             <div class="icon-wrapper">
                 <component :is="iconComponent" />
             </div>
             <div class="info">
-                <span class="history-item-title">{{ historyItem.title }}</span>
-                <a :href="historyItem.link" target="_blank">more</a>
+                <a v-if="historyItem.link" :href="historyItem.link" target="_blank" class="history-item-title">{{ historyItem.title }}</a>
+                <span v-else :href="historyItem.link" class="history-item-title">{{ historyItem.title }}</span>
             </div>
         </div>
 
-        <span v-if="!right" class="date">{{ dateFormatted }}</span>
+        <span v-if="!right" class="date" :class="{'no-exact': !props.historyItem.date}">{{ dateFormatted }}</span>
     </div>
 </template>
 
@@ -44,6 +44,8 @@ const iconComponent = computed(() => {
     gap: 50px;
     padding: 30px 0 30px 60px;
     position: relative;
+    width: calc(100% - 12px);
+    margin: 0 auto;
 }
 
 @media (width >= 768px) {
@@ -71,7 +73,7 @@ const iconComponent = computed(() => {
     width: 15px;
     position: absolute;
     background: var(--gray-dark);
-    left: -46px;
+    left: -48px;
     top: 50%;
     border-radius: 50%;
     z-index: 2;
@@ -91,7 +93,7 @@ const iconComponent = computed(() => {
     width: 32px;
     position: absolute;
     background: var(--gray-dark);
-    left: -37px;
+    left: -33px;
     top: 50%;
     transform: translate(0, -50%);
 }
@@ -122,7 +124,7 @@ const iconComponent = computed(() => {
 
 .history-item-title {
     font-size: 14px;
-    font-weight: 700;
+    color: var(--white);
 }
 
 .info a {
@@ -135,9 +137,13 @@ const iconComponent = computed(() => {
     color: var(--gray);
     position: absolute;
     rotate: 270deg;
-    left: -36px;
+    left: -20px;
     top: 50%;
     translate: 0 -50%;
+
+    &.no-exact {
+        left: -50px;
+    }
 }
 
 @media (width >= 768px) {

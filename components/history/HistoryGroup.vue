@@ -50,7 +50,7 @@ const { stop } = useIntersectionObserver(
 .year {
     text-align: center;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
     position: sticky;
     top: 0;
     background: var(--background-color);

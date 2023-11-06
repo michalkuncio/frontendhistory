@@ -2,10 +2,14 @@
 export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: [
-        '@vueuse/nuxt'
+        '@vueuse/nuxt',
+        '@nuxtjs/fontaine'
     ],
     routeRules: {
         '/about': { prerender: true },
-        '/contribute': { prerender: true }
+        '/contributions': { prerender: true }
+    },
+    experimental: {
+        typedPages: true
     }
 });
