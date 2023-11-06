@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     ],
     routeRules: {
         '/about': { prerender: true },
-        '/contribute': { prerender: true }
+        '/contributions': { prerender: true }
+    },
+    experimental: {
+        typedPages: true
     }
 });
