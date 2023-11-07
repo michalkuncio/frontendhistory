@@ -24,7 +24,7 @@ useHead({
     </div>
 </template>
 
-<style>
+<style scoped>
 .contributions {
     padding: 40px 0;
 }

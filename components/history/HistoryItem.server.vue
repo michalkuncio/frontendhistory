@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useDateFormat } from '@vueuse/core';
-import type { HistoryItem } from './history.types';
+import type { HistoryItem } from '@/types/history';
 
 interface Props {
     historyItem: HistoryItem
@@ -15,7 +15,7 @@ const right = !!(props.index & 1);
 
 const iconComponent = computed(() => {
     const iconName = props.historyItem.icon || 'calendar';
-    return defineAsyncComponent(() => import(`./../icons/logos/${iconName}.vue`));
+    return defineAsyncComponent(() => import(`@/components/icons/logos/${iconName}.vue`));
 });
 </script>
 
