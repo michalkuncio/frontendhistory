@@ -2,6 +2,12 @@ export default {
     year: 2023,
     items: [
         {
+            date: '2023-11-08',
+            title: 'Angular 17.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/17.0.0',
+            icon: 'angular'
+        },
+        {
             date: '2023-10-26',
             title: 'Next.js 14.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v14.0.0',
@@ -18,6 +24,12 @@ export default {
             title: 'Svelte 5 announced',
             link: 'https://svelte.dev/blog/runes',
             icon: 'svelte'
+        },
+        {
+            date: '2023-05-03',
+            title: 'Angular 16.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/16.0.0',
+            icon: 'angular'
         },
         {
             date: '2023-01-20',

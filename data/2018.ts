@@ -2,6 +2,12 @@ export default {
     year: 2018,
     items: [
         {
+            date: '2018-10-18',
+            title: 'Angular 7.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/7.0.0',
+            icon: 'angular'
+        },
+        {
             date: '2018-09-19',
             title: 'Next.js 7.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/7.0.0',
@@ -12,6 +18,12 @@ export default {
             title: 'Nuxt 1.0 released',
             link: 'https://github.com/nuxt/nuxt/releases/tag/v2.0.0',
             icon: 'nuxt'
+        },
+        {
+            date: '2018-05-03',
+            title: 'Angular 6.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/6.0.0',
+            icon: 'angular'
         },
         {
             date: '2018-04-29',

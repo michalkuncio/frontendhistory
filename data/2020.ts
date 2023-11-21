@@ -18,6 +18,18 @@ export default {
             title: 'Vue.js 3.0 released',
             link: 'https://en.wikipedia.org/wiki/Vue.js',
             icon: 'vue'
+        },
+        {
+            date: '2020-06-24',
+            title: 'Angular 10.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/10.0.0',
+            icon: 'angular'
+        },
+        {
+            date: '2020-02-06',
+            title: 'Angular 9.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/9.0.0',
+            icon: 'angular'
         }
     ]
 };

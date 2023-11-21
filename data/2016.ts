@@ -14,6 +14,18 @@ export default {
             icon: 'vue'
         },
         {
+            date: '2016-09-15',
+            title: 'Angular 2.0 released',
+            link: 'https://github.com/angular/angular/releases/tag/2.0.0',
+            icon: 'angular'
+        },
+        {
+            date: '2016-06-09',
+            title: 'jQuery 3.0 released',
+            link: 'https://en.wikipedia.org/wiki/JQuery',
+            icon: 'jquery'
+        },
+        {
             date: '2016-04-08',
             title: 'React 15.0 released',
             link: 'https://github.com/facebook/react/releases',
