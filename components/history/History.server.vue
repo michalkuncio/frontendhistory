@@ -8,7 +8,7 @@ import { historyItems } from '@/data/history';
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .history {
     padding-bottom: 40px;
 }

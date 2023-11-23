@@ -23,17 +23,3 @@ useHead({
         <p>contribute and get listed here! 🥳</p>
     </div>
 </template>
-
-<style scoped>
-.contributions {
-    padding: 40px 0;
-}
-
-h1 {
-    padding-bottom: 40px;
-}
-
-p {
-    line-height: 1.6;
-}
-</style>

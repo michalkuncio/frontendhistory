@@ -20,6 +20,12 @@ export default {
             icon: 'next'
         },
         {
+            date: '2017-06-19',
+            title: 'Webpack 3.0 released',
+            link: 'https://github.com/webpack/webpack/releases/tag/v3.0.0',
+            icon: 'webpack'
+        },
+        {
             date: '2017-04-08',
             title: 'Next.js 3.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/3.0.1',
@@ -36,6 +42,12 @@ export default {
             title: 'Angular 4.0 released',
             link: 'https://github.com/angular/angular/releases/tag/4.0.0',
             icon: 'angular'
+        },
+        {
+            date: '2017-01-17',
+            title: 'Webpack 2.0 released',
+            link: 'https://github.com/webpack/webpack/releases/tag/v2.2.0',
+            icon: 'webpack'
         }
     ]
 };

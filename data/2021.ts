@@ -14,6 +14,12 @@ export default {
             icon: 'next'
         },
         {
+            date: '2022-06-28',
+            title: 'Solid.js 1.0 released',
+            link: 'https://github.com/vercel/next.js/releases/tag/v11.0.0',
+            icon: 'solid'
+        },
+        {
             date: '2022-06-15',
             title: 'Next.js 11.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v11.0.0',
@@ -24,6 +30,12 @@ export default {
             title: 'Angular 12.0 released',
             link: 'https://github.com/angular/angular/releases/tag/12.0.0',
             icon: 'angular'
+        },
+        {
+            date: '2021-02-16',
+            title: 'Vite 2.0 released',
+            link: 'https://github.com/vitejs/vite/releases/tag/v2.0.0',
+            icon: 'vite'
         },
         {
             date: '2022-02-11',

@@ -20,7 +20,7 @@ defineProps<{
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .history-items {
     position: relative;
 }

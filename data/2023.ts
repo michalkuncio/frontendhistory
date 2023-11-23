@@ -2,6 +2,12 @@ export default {
     year: 2023,
     items: [
         {
+            date: '2023-11-16',
+            title: 'Vite 5.0 released',
+            link: 'https://github.com/vitejs/vite/releases/tag/v5.0.0',
+            icon: 'vite'
+        },
+        {
             date: '2023-11-08',
             title: 'Angular 17.0 released',
             link: 'https://github.com/angular/angular/releases/tag/17.0.0',
@@ -26,10 +32,34 @@ export default {
             icon: 'svelte'
         },
         {
+            date: '2023-08-30',
+            title: 'Astro 3.0 released',
+            link: 'https://github.com/withastro/astro/releases/tag/astro%403.0.0',
+            icon: 'astro'
+        },
+        {
+            date: '2023-06-22',
+            title: 'Svelte 4.0 released',
+            link: 'https://github.com/sveltejs/svelte/releases/tag/svelte%404.0.0',
+            icon: 'svelte'
+        },
+        {
             date: '2023-05-03',
             title: 'Angular 16.0 released',
             link: 'https://github.com/angular/angular/releases/tag/16.0.0',
             icon: 'angular'
+        },
+        {
+            date: '2023-05-02',
+            title: 'Qwik 1.0 released',
+            link: 'https://github.com/BuilderIO/qwik/releases/tag/v1.0.0',
+            icon: 'qwik'
+        },
+        {
+            date: '2023-01-24',
+            title: 'Astro 2.0 released',
+            link: 'https://github.com/withastro/astro/releases/tag/astro%402.0.0',
+            icon: 'astro'
         },
         {
             date: '2023-01-20',

@@ -2,7 +2,13 @@ export default {
     year: 2020,
     items: [
         {
-            date: '2022-10-27',
+            date: '2020-11-25',
+            title: 'Vite 1.0 released',
+            link: 'https://www.npmjs.com/package/vite?activeTab=versions',
+            icon: 'vite'
+        },
+        {
+            date: '2020-10-27',
             title: 'Next.js 10.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v10.0.0',
             icon: 'next'
@@ -12,6 +18,12 @@ export default {
             title: 'React 17.0 released',
             link: 'https://github.com/facebook/react/releases',
             icon: 'react'
+        },
+        {
+            date: '2020-10-10',
+            title: 'Webpack 5.0 released',
+            link: 'https://github.com/webpack/webpack/releases/tag/v5.0.0',
+            icon: 'webpack'
         },
         {
             date: '2020-09-18',

@@ -7,6 +7,7 @@ import year2018 from './2018';
 import year2017 from './2017';
 import year2016 from './2016';
 import year2015 from './2015';
+import year2014 from './2014';
 import year2013 from './2013';
 import year2012 from './2012';
 import year2006 from './2006';
@@ -23,6 +24,7 @@ export const historyItems = [
     year2017,
     year2016,
     year2015,
+    year2014,
     year2013,
     year2012,
     year2006,

@@ -2,6 +2,12 @@ export default {
     year: 2016,
     items: [
         {
+            date: '2016-11-29',
+            title: 'Svelte 1.0 released',
+            link: 'https://github.com/sveltejs/svelte/releases/tag/v1.0.0',
+            icon: 'svelte'
+        },
+        {
             date: '2016-10-25',
             title: 'Next.js 1.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/1.0.0',

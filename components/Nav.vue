@@ -18,7 +18,7 @@
     </nav>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 nav {
     display: flex;
     gap: 15px;

@@ -37,7 +37,7 @@ const iconComponent = computed(() => {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .history-item {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -46,147 +46,135 @@ const iconComponent = computed(() => {
     position: relative;
     width: calc(100% - 12px);
     margin: 0 auto;
-}
 
-@media (width >= 768px) {
-    .history-item {
+    @media (width >= 768px) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         padding: 40px 0;
     }
-}
 
-.history-item-card {
-    border-radius: 5px;
-    padding: 20px;
-    border: 1px solid var(--gray-dark);
-    position: relative;
-    box-shadow: 3px 3px 14px -6px var(--gray);
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-}
+    .history-item-card {
+        border-radius: 5px;
+        padding: 20px;
+        border: 1px solid var(--gray-dark);
+        position: relative;
+        box-shadow: 3px 3px 14px -6px var(--gray);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
 
-.history-item-card::before {
-    content: '';
-    height: 15px;
-    width: 15px;
-    position: absolute;
-    background: var(--gray-dark);
-    left: -48px;
-    top: 50%;
-    border-radius: 50%;
-    z-index: 2;
-    transform: translate(0, -50%);
-}
+        &::before {
+            content: '';
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            background: var(--gray-dark);
+            left: -48px;
+            top: 50%;
+            border-radius: 50%;
+            z-index: 2;
+            transform: translate(0, -50%);
 
-@media (width >= 768px) {
-    .history-item-card::before {
-        right: -34px;
-        left: unset;
+            @media (width >= 768px) {
+                right: -34px;
+                left: unset;
+            }
+        }
+
+        &::after {
+            content: '';
+            height: 5px;
+            width: 32px;
+            position: absolute;
+            background: var(--gray-dark);
+            left: -33px;
+            top: 50%;
+            transform: translate(0, -50%);
+
+            @media (width >= 768px) {
+                right: -32px;
+                left: unset;
+            }
+        }
+
+        .icon-wrapper {
+            width: 40px;
+            height: 40px;
+
+            svg {
+                fill: var(--white);
+                height: 40px;
+                width: 40px;
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .history-item-title {
+                font-size: 14px;
+                color: var(--white);
+            }
+        }
     }
-}
 
-.history-item-card::after {
-    content: '';
-    height: 5px;
-    width: 32px;
-    position: absolute;
-    background: var(--gray-dark);
-    left: -33px;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-@media (width >= 768px) {
-    .history-item-card::after {
-        right: -32px;
-        left: unset;
-    }
-}
-
-.icon-wrapper {
-    width: 40px;
-    height: 40px;
-}
-
-.icon-wrapper svg {
-    fill: var(--white);
-    height: 40px;
-    width: 40px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.history-item-title {
-    font-size: 14px;
-    color: var(--white);
-}
-
-.info a {
-    font-size: 13px;
-}
-
-.date {
-    display: flex;
-    align-items: center;
-    color: var(--gray);
-    position: absolute;
-    rotate: 270deg;
-    left: -20px;
-    top: 50%;
-    translate: 0 -50%;
-
-    &.no-exact {
-        left: -50px;
-    }
-}
-
-@media (width >= 768px) {
     .date {
-        position: static;
-        rotate: inherit;
-        translate: inherit;
-    }
-}
-
-@media (width >= 768px) {
-    .right .history-item-card {
-        grid-column: 2;
-    }
-
-    .right .history-item-card::before {
-        content: '';
-        height: 15px;
-        width: 15px;
+        display: flex;
+        align-items: center;
+        color: var(--gray);
         position: absolute;
-        background: var(--gray-dark);
-        left: -33px;
+        rotate: 270deg;
+        left: -20px;
         top: 50%;
-        border-radius: 50%;
-        z-index: 2;
-        transform: translate(0, -50%);
-    }
-}
+        translate: 0 -50%;
 
-@media (width >= 768px) {
-    .right .history-item-card::after {
-        content: '';
-        height: 5px;
-        width: 24px;
-        position: absolute;
-        background: var(--gray-dark);
-        right: unset;
-        left: -24px;
-        top: 50%;
-    }
-}
+        @media (width >= 768px) {
+            position: static;
+            rotate: inherit;
+            translate: inherit;
+        }
 
-.right .date {
-    justify-content: flex-end;
+        &.no-exact {
+            left: -50px;
+        }
+    }
+
+    &.right {
+        .history-item-card {
+            @media (width >= 768px) {
+                grid-column: 2;
+
+                &::before {
+                    content: '';
+                    height: 15px;
+                    width: 15px;
+                    position: absolute;
+                    background: var(--gray-dark);
+                    left: -33px;
+                    top: 50%;
+                    border-radius: 50%;
+                    z-index: 2;
+                    transform: translate(0, -50%);
+                }
+
+                &::after {
+                    content: '';
+                    height: 5px;
+                    width: 24px;
+                    position: absolute;
+                    background: var(--gray-dark);
+                    right: unset;
+                    left: -24px;
+                    top: 50%;
+                }
+            }
+        }
+
+        .date {
+            justify-content: flex-end;
+        }
+    }
 }
 </style>
