@@ -38,6 +38,12 @@ export default {
             icon: 'remix'
         },
         {
+            date: '2023-09-08',
+            title: 'Bun 1.0 released',
+            link: 'https://github.com/oven-sh/bun/releases/tag/bun-v1.0.0',
+            icon: 'bun'
+        },
+        {
             date: '2023-08-30',
             title: 'Astro 3.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%403.0.0',
@@ -48,6 +54,12 @@ export default {
             title: 'Svelte 4.0 released',
             link: 'https://github.com/sveltejs/svelte/releases/tag/svelte%404.0.0',
             icon: 'svelte'
+        },
+        {
+            date: '2023-05-15',
+            title: 'Ember.js 5.0 released',
+            link: 'https://github.com/emberjs/ember.js/releases/tag/v5.0.0',
+            icon: 'ember'
         },
         {
             date: '2023-05-03',
@@ -62,6 +74,12 @@ export default {
             icon: 'qwik'
         },
         {
+            date: '2023-04-18',
+            title: 'Node.js 20.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v20.0.0',
+            icon: 'node'
+        },
+        {
             date: '2023-01-24',
             title: 'Astro 2.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%402.0.0',
@@ -72,6 +90,12 @@ export default {
             title: 'Nuxt 3.0 released',
             link: 'https://github.com/nuxt/nuxt/releases/tag/v3.0.0',
             icon: 'nuxt'
+        },
+        {
+            date: '2023-01-02',
+            title: 'Create-t3-app 7.0 released',
+            link: 'https://github.com/t3-oss/create-t3-app/releases/tag/create-t3-app%407.0.0',
+            icon: 't3'
         }
     ]
 };

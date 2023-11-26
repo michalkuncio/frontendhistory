@@ -20,6 +20,18 @@ export default {
             icon: 'next'
         },
         {
+            date: '2022-10-18',
+            title: 'Node.js 19.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v19.0.0',
+            icon: 'node'
+        },
+        {
+            date: '2022-10-06',
+            title: 'Create-t3-app 6.0 released',
+            link: 'https://github.com/t3-oss/create-t3-app/releases/tag/create-t3-app%406.0.0',
+            icon: 't3'
+        },
+        {
             date: '2022-08-09',
             title: 'Astro 1.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%401.0.0',
@@ -36,6 +48,12 @@ export default {
             title: 'Angular 14.0 released',
             link: 'https://github.com/angular/angular/releases/tag/14.0.0',
             icon: 'angular'
+        },
+        {
+            date: '2022-04-19',
+            title: 'Node.js 18.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v18.0.0',
+            icon: 'node'
         },
         {
             date: '2022-03-29',

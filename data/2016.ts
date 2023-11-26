@@ -14,9 +14,15 @@ export default {
             icon: 'next'
         },
         {
+            date: '2016-10-25',
+            title: 'Node.js 7.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v7.0.0',
+            icon: 'node'
+        },
+        {
             date: '2016-09-30',
             title: 'Vue.js 2.0 released',
-            link: 'https://en.wikipedia.org/wiki/Vue.js',
+            link: 'https://github.com/vuejs/vue/releases/tag/v2.0.0',
             icon: 'vue'
         },
         {
@@ -30,6 +36,12 @@ export default {
             title: 'jQuery 3.0 released',
             link: 'https://en.wikipedia.org/wiki/JQuery',
             icon: 'jquery'
+        },
+        {
+            date: '2016-04-26',
+            title: 'Node.js 6.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v6.0.0',
+            icon: 'node'
         },
         {
             date: '2016-04-08',

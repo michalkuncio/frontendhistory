@@ -2,6 +2,12 @@ export default {
     year: 2019,
     items: [
         {
+            date: '2019-10-22',
+            title: 'Node.js 13.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v13.0.0',
+            icon: 'node'
+        },
+        {
             date: '2019-07-08',
             title: 'Next.js 9.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v9.0.0',
@@ -18,6 +24,12 @@ export default {
             title: 'Tailwind 1.0 released',
             link: 'https://github.com/tailwindlabs/tailwindcss/releases/tag/v1.0.0',
             icon: 'tailwind'
+        },
+        {
+            date: '2019-04-23',
+            title: 'Node.js 12.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v12.0.0',
+            icon: 'node'
         },
         {
             date: '2019-04-21',

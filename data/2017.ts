@@ -2,6 +2,12 @@ export default {
     year: 2017,
     items: [
         {
+            date: '2017-11-03',
+            title: 'Node.js 9.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v9.0.0',
+            icon: 'node'
+        },
+        {
             date: '2017-11-01',
             title: 'Angular 5.0 released',
             link: 'https://github.com/angular/angular/releases/tag/5.0.0',
@@ -24,6 +30,12 @@ export default {
             title: 'Webpack 3.0 released',
             link: 'https://github.com/webpack/webpack/releases/tag/v3.0.0',
             icon: 'webpack'
+        },
+        {
+            date: '2017-05-30',
+            title: 'Node.js 8.0 released',
+            link: 'https://github.com/nodejs/node/releases/tag/v8.0.0',
+            icon: 'node'
         },
         {
             date: '2017-04-08',
