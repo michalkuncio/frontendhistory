@@ -2,6 +2,18 @@ export default {
     year: 2021,
     items: [
         {
+            date: '2021-12-09',
+            title: 'Tailwind 3.0 released',
+            link: 'https://github.com/tailwindlabs/tailwindcss/releases/tag/v3.0.0',
+            icon: 'tailwind'
+        },
+        {
+            date: '2021-11-22',
+            title: 'Remix 1.0 released',
+            link: 'https://github.com/remix-run/remix/releases/tag/v1.0.3',
+            icon: 'remix'
+        },
+        {
             date: '2022-11-03',
             title: 'Angular 13.0 released',
             link: 'https://github.com/angular/angular/releases/tag/13.0.0',

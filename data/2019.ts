@@ -14,6 +14,12 @@ export default {
             icon: 'angular'
         },
         {
+            date: '2019-05-13',
+            title: 'Tailwind 1.0 released',
+            link: 'https://github.com/tailwindlabs/tailwindcss/releases/tag/v1.0.0',
+            icon: 'tailwind'
+        },
+        {
             date: '2019-04-21',
             title: 'Svelte 3.0 released',
             link: 'https://github.com/sveltejs/svelte/releases/tag/v3.0.0',

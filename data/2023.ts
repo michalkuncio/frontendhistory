@@ -32,6 +32,12 @@ export default {
             icon: 'svelte'
         },
         {
+            date: '2023-09-15',
+            title: 'Remix 2.0 released',
+            link: 'https://github.com/remix-run/remix/releases/tag/remix%402.0.0',
+            icon: 'remix'
+        },
+        {
             date: '2023-08-30',
             title: 'Astro 3.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%403.0.0',

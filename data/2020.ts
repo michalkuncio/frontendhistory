@@ -8,6 +8,12 @@ export default {
             icon: 'vite'
         },
         {
+            date: '2020-11-18',
+            title: 'Tailwind 2.0 released',
+            link: 'https://github.com/tailwindlabs/tailwindcss/releases/tag/v2.0.0',
+            icon: 'tailwind'
+        },
+        {
             date: '2020-10-27',
             title: 'Next.js 10.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v10.0.0',
