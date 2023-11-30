@@ -12,7 +12,11 @@ import year2013 from './2013';
 import year2012 from './2012';
 import year2011 from './2011';
 import year2010 from './2010';
+import year2008 from './2008';
 import year2006 from './2006';
+import year2004 from './2004';
+import year2003 from './2003';
+import year1995 from './1995';
 import year1991 from './1991';
 import year1990 from './1990';
 
@@ -31,7 +35,11 @@ export const historyItems = [
     year2012,
     year2011,
     year2010,
+    year2008,
     year2006,
+    year2004,
+    year2003,
+    year1995,
     year1991,
     year1990
 ];

@@ -26,6 +26,12 @@ export default {
             icon: 'next'
         },
         {
+            date: '2017-09-18',
+            title: 'CoffeeScript 2.0 released',
+            link: 'https://github.com/jashkenas/coffeescript/releases/tag/2.0.0',
+            icon: 'coffeescript'
+        },
+        {
             date: '2017-06-19',
             title: 'Webpack 3.0 released',
             link: 'https://github.com/webpack/webpack/releases/tag/v3.0.0',
