@@ -16,11 +16,10 @@ defineProps<{
             <HistoryLine />
             <HistoryItem v-for="(historyItem, index) in historyGroup.items" :key="historyItem.date" :history-item="historyItem" :index="index" />
         </div>
-        <span ref="intersectionHelper" />
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .history-items {
     position: relative;
 }

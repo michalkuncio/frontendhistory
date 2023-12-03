@@ -1,12 +1,12 @@
 <template>
     <footer>
         <span class="created-by">Created by <a href="https://michalkuncio.com/" target="_blank">Michał Kuncio</a></span>
-        <a href="https://michalkuncio.com/" target="_blank"><IconsIconWebsite /></a>
-        <a href="https://twitter.com/michalkuncio" target="_blank"><IconsIconX /></a>
+        <a href="https://michalkuncio.com/" title="Michal Kuncio personal website" target="_blank"><IconsIconWebsite /></a>
+        <a href="https://twitter.com/michalkuncio" title="Michal Kuncio twitter" target="_blank"><IconsIconX /></a>
     </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 footer {
     position: sticky;
     bottom: 0;

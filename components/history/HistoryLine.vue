@@ -5,7 +5,7 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .line {
     width: 4px;
     height: 100%;

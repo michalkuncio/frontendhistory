@@ -12,13 +12,13 @@
             Contributions
         </NuxtLink>
 
-        <a href="https://github.com/michalkuncio/frontendhistory" target="_blank">
+        <a href="https://github.com/michalkuncio/frontendhistory" title="github link" target="_blank">
             <IconsIconGithub />
         </a>
     </nav>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 nav {
     display: flex;
     gap: 15px;

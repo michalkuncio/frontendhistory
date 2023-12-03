@@ -5,7 +5,7 @@
     </h1>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 h1 {
     font-size: 40px;
     font-weight: 800;

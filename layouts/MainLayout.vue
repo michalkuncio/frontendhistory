@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .main-layout {
     display: flex;
     flex-direction: column;
@@ -25,5 +25,17 @@
 
 main {
     flex-grow: 1;
+}
+
+h1 {
+    padding: 40px 0;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+p {
+    line-height: 1.6;
 }
 </style>
