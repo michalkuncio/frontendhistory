@@ -34,9 +34,11 @@ defineProps<{
     z-index: 3;
     padding: 30px 0;
     line-height: 1;
+    box-shadow: 0 -7px 0 7px var(--black);
 
     @media (width >= 768px ) {
         padding: 50px 0;
+        box-shadow: none;
     }
 }
 </style>
