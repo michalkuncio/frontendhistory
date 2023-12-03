@@ -1,5 +1,9 @@
 # The history of Frontend
 
+[frontendhistory.com](https://frontendhistory.com) ✨
+
+![Alt Text](public/ogimagefb.jpg)
+
 ## Motivation
 
 The frontend changes rapidly, with new libraries being released daily, and some features achieving full browser support. Likewise, some libraries and browsers become deprecated. What if we had something like a calendar that cataloged all significant events in the frontend world? This would allow us to stay informed about recent news and explore the distant history of frontend. It would be great to have a single comprehensive repository detailing the entire history of frontend development.
@@ -15,6 +19,7 @@ If you think it's important to the frontend community, go ahead and add it. Addi
 Nuxt
 
 **Why not Astro, Tailwind, HTMX, HTML, XYZ?**
+
 I love those tools but I feel the most comfortable with Vue and Nuxt
 
 ## Contributions
@@ -27,7 +32,9 @@ This is a long-term community project that will be as valuable as its contributi
 - Create a pull request from your branch to **main**
 - For new history entries, please add **[History items]** at the end of the PR title
 - For other issues or improvements, don't you don't have to add any label in the PR title
-- For new history entries it should follow the the following structure:
+- For new history entries, navigate to the appropriate year inside `/data` directory
+- data should follow chronological order, there is no additional sorting
+- It should follow the the following structure:
 ```js
 export default {
     year: 2004,
