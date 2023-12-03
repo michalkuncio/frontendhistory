@@ -65,11 +65,11 @@ const iconComponent = computed(() => {
 
         &::before {
             content: '';
-            height: 15px;
-            width: 15px;
+            height: 16px;
+            width: 16px;
             position: absolute;
             background: var(--gray-dark);
-            left: -48px;
+            left: -50px;
             top: 50%;
             border-radius: 50%;
             z-index: 2;
@@ -84,16 +84,17 @@ const iconComponent = computed(() => {
         &::after {
             content: '';
             height: 5px;
-            width: 32px;
+            width: 34px;
             position: absolute;
             background: var(--gray-dark);
-            left: -33px;
+            left: -35px;
             top: 50%;
             transform: translate(0, -50%);
 
             @media (width >= 768px) {
                 right: -32px;
                 left: unset;
+                width: 32px;
             }
         }
 
