@@ -2,6 +2,12 @@ export default {
     year: 2023,
     items: [
         {
+            date: '2023-12-04',
+            title: 'Vitest 1.0 released',
+            link: 'https://github.com/vitest-dev/vitest/releases/tag/v1.0.0',
+            icon: 'vitest'
+        },
+        {
             date: '2023-11-16',
             title: 'Vite 5.0 released',
             link: 'https://github.com/vitejs/vite/releases/tag/v5.0.0',
