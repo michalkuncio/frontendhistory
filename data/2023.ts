@@ -2,6 +2,12 @@ export default {
     year: 2023,
     items: [
         {
+            date: '2023-12-05',
+            title: 'Astro 4.0 released',
+            link: 'https://github.com/withastro/astro/releases/tag/astro%404.0.0',
+            icon: 'astro'
+        },
+        {
             date: '2023-12-04',
             title: 'Vitest 1.0 released',
             link: 'https://github.com/vitest-dev/vitest/releases/tag/v1.0.0',
