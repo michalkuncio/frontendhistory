@@ -28,7 +28,7 @@ useSeoMeta({
     ogUrl: 'http://localhost:3000/',
     twitterTitle: 'The history of Frontend',
     twitterDescription: 'Get to know the most important events in the history of Frontend',
-    twitterImage: '/twittercard.jpg',
+    twitterImage: 'https://frontendhistory.com/twittercard.jpg',
     twitterCard: 'summary'
 });
 
