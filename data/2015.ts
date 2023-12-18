@@ -15,7 +15,7 @@ export default {
         },
         {
             date: '2015-09-08',
-            title: 'Node.js 4.0 released',
+            title: 'Node.js 4.0 released (First LTS)',
             link: 'https://github.com/nodejs/node/releases/tag/v4.0.0',
             icon: 'node'
         },
