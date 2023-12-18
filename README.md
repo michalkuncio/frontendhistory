@@ -56,5 +56,6 @@ export default {
 ## Contributors
 
 - [michalkuncio](https://github.com/michalkuncio/)
+- [CARLOSGINER](https://github.com/CARLOSGINER)
 
 <p>contribute and get listed here! 🥳</p>
