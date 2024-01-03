@@ -2,6 +2,12 @@ export default {
     year: 2023,
     items: [
         {
+            date: '2023-12-14',
+            title: 'SvelteKit 2.0 released',
+            link: 'https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%402.0.0',
+            icon: 'svelte'
+        },
+        {
             date: '2023-12-05',
             title: 'Astro 4.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%404.0.0',
