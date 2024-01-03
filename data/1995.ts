@@ -8,8 +8,14 @@ export default {
             icon: 'javascript'
         },
         {
+            date: '1995-11-24',
+            title: 'HTML 2.0 released',
+            link: 'https://en.wikipedia.org/wiki/HTML',
+            icon: 'html'
+        },
+        {
             date: '1995-08-24',
-            title: 'First version of Internet Exporer released',
+            title: 'First version of Internet Explorer released',
             link: 'https://en.wikipedia.org/wiki/Internet_Explorer_version_history#Microsoft_Internet_Explorer',
             icon: 'ie'
         }
