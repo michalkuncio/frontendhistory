@@ -22,6 +22,9 @@ useHead({
             <li>
                 <a href="https://github.com/CARLOSGINER">CARLOSGINER</a>
             </li>
+            <li>
+                <a href="https://github.com/eranshmil">eranshmil</a>
+            </li>
         </ul>
         <p>contribute and get listed here! 🥳</p>
     </div>
