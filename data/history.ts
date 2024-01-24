@@ -1,3 +1,4 @@
+import year2024 from './2024';
 import year2023 from './2023';
 import year2022 from './2022';
 import year2021 from './2021';
@@ -26,6 +27,7 @@ import year1991 from './1991';
 import year1990 from './1990';
 
 export const historyItems = [
+    year2024,
     year2023,
     year2022,
     year2021,
