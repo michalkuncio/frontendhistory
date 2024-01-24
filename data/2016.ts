@@ -26,6 +26,12 @@ export default {
             icon: 'vue'
         },
         {
+            date: '2016-09-22',
+            title: 'TypeScript 2.0 released',
+            link: 'https://devblogs.microsoft.com/typescript/announcing-typescript-2-0/',
+            icon: 'typescript'
+        },
+        {
             date: '2016-09-15',
             title: 'Angular 2.0 released',
             link: 'https://github.com/angular/angular/releases/tag/2.0.0',
