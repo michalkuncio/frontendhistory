@@ -38,6 +38,12 @@ export default {
             icon: 'angular'
         },
         {
+            date: '2013-06-28',
+            title: 'D3.js 4.0 released',
+            link: 'https://github.com/d3/d3/releases/tag/v4.0.0',
+            icon: 'd3'
+        },
+        {
             date: '2016-06-09',
             title: 'jQuery 3.0 released',
             link: 'https://en.wikipedia.org/wiki/JQuery',
