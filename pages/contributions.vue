@@ -25,6 +25,9 @@ useHead({
             <li>
                 <a href="https://github.com/eranshmil">eranshmil</a>
             </li>
+            <li>
+                <a href="https://github.com/Kaamkiya">Kaamkiya</a>
+            </li>
         </ul>
         <p>contribute and get listed here! 🥳</p>
     </div>

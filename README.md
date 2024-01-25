@@ -58,5 +58,6 @@ export default {
 - [michalkuncio](https://github.com/michalkuncio/)
 - [CARLOSGINER](https://github.com/CARLOSGINER)
 - [eranshmil](https://github.com/eranshmil)
+- [Kaamkiya](https://github.com/Kaamkiya)
 
 <p>contribute and get listed here! 🥳</p>
