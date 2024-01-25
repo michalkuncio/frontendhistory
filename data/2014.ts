@@ -12,6 +12,12 @@ export default {
             title: 'Webpack 1.0 released',
             link: 'https://github.com/webpack/webpack/releases/tag/v1.0.0',
             icon: 'webpack'
+        },
+        {
+            date: '2014-04-02',
+            title: 'TypeScript 1.0 released',
+            link: 'https://devblogs.microsoft.com/typescript/announcing-typescript-1-0/',
+            icon: 'typescript'
         }
     ]
 };

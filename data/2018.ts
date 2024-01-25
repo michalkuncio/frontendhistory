@@ -26,6 +26,12 @@ export default {
             icon: 'nuxt'
         },
         {
+            date: '2018-07-30',
+            title: 'TypeScript 3.0 released',
+            link: 'https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html',
+            icon: 'typescript'
+        },
+        {
             date: '2018-05-24',
             title: 'Node.js 10.0 released',
             link: 'https://github.com/nodejs/node/releases/tag/v10.0.0',

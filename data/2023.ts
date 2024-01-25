@@ -98,6 +98,12 @@ export default {
             icon: 'node'
         },
         {
+            date: '2023-03-16',
+            title: 'TypeScript 5.0 released',
+            link: 'https://github.com/microsoft/TypeScript/releases/tag/v5.0.2',
+            icon: 'typescript'
+        },
+        {
             date: '2023-01-24',
             title: 'Astro 2.0 released',
             link: 'https://github.com/withastro/astro/releases/tag/astro%402.0.0',
