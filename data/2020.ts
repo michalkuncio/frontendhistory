@@ -50,6 +50,12 @@ export default {
             icon: 'angular'
         },
         {
+            date: '2020-05-13',
+            title: 'Deno v1.0 released',
+            link: 'https://deno.land/v1',
+            icon: 'deno'
+        },
+        {
             date: '2020-04-21',
             title: 'Node.js 14.0 released',
             link: 'https://github.com/nodejs/node/releases/tag/v14.0.0',
