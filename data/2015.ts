@@ -26,6 +26,12 @@ export default {
             icon: 'node'
         },
         {
+            date: '2015-06-17',
+            title: 'ES6 released',
+            link: 'https://262.ecma-international.org/6.0/',
+            icon: 'javascript'
+        },
+        {
             date: '2015-04-13',
             title: 'Ember.js 2.0 released',
             link: 'https://github.com/emberjs/ember.js/releases/tag/v2.0.0',
