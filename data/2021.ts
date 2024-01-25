@@ -50,6 +50,12 @@ export default {
             icon: 'next'
         },
         {
+            date: '2013-06-11',
+            title: 'D3.js 7.0 released',
+            link: 'https://github.com/d3/d3/releases/tag/v7.0.0',
+            icon: 'd3'
+        },
+        {
             date: '2022-05-13',
             title: 'Angular 12.0 released',
             link: 'https://github.com/angular/angular/releases/tag/12.0.0',
