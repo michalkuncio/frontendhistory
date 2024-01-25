@@ -74,6 +74,12 @@ export default {
             icon: 'next'
         },
         {
+            date: '2013-01-28',
+            title: 'D3.js 5.0 released',
+            link: 'https://github.com/d3/d3/releases/tag/v5.0.0',
+            icon: 'd3'
+        },
+        {
             date: '2018-01-08',
             title: 'Nuxt 2.0 released',
             link: 'https://github.com/nuxt/nuxt/releases/tag/v1.0.0',
