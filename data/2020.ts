@@ -62,6 +62,11 @@ export default {
             icon: 'node'
         },
         {
+            date: '2020-02-19',
+            title: 'AlpineJS 2.0 released',
+            link: 'https://github.com/alpinejs/alpine/releases/tag/v2.0.0',
+            icon: 'alpinejs'
+        {
             date: '2020-02-06',
             title: 'Angular 9.0 released',
             link: 'https://github.com/angular/angular/releases/tag/9.0.0',
