@@ -2,6 +2,12 @@ export default {
     year: 2019,
     items: [
         {
+            date: '2019-12-18',
+            title: 'AlpineJS 1.0 released',
+            link: 'https://github.com/alpinejs/alpine/releases/tag/v1.0.0',
+            icon: 'alpinejs'
+        },
+        {
             date: '2019-10-22',
             title: 'Node.js 13.0 released',
             link: 'https://github.com/nodejs/node/releases/tag/v13.0.0',
