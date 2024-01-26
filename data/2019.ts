@@ -20,6 +20,11 @@ export default {
             icon: 'next'
         },
         {
+            date: '2019-06-04',
+            title: 'NPM passes 1 million packages',
+            link: 'https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/',
+            icon: 'npm'
+        {
             date: '2019-05-28',
             title: 'Angular 8.0 released',
             link: 'https://github.com/angular/angular/releases/tag/8.0.0',
