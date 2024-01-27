@@ -5,7 +5,7 @@ export default {
             date: '2019-12-18',
             title: 'AlpineJS 1.0 released',
             link: 'https://github.com/alpinejs/alpine/releases/tag/v1.0.0',
-            icon: 'alpinejs'
+            icon: 'alpine'
         },
         {
             date: '2019-10-22',
