@@ -24,6 +24,7 @@ export default {
             title: 'NPM passes 1 million packages',
             link: 'https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/',
             icon: 'npm'
+        },
         {
             date: '2019-05-28',
             title: 'Angular 8.0 released',
