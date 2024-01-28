@@ -18,5 +18,6 @@ export default {
             title: 'NPM is released',
             link: 'https://www.npmjs.com/',
             icon: 'npm'
+        }
     ]
 };
