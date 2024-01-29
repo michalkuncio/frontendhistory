@@ -12,6 +12,12 @@ export default {
             title: 'First CSS 3.0 module released',
             link: 'https://en.wikipedia.org/wiki/CSS',
             icon: 'css'
+        },
+        {
+            date: '2011-02-17',
+            title: 'D3.js 1.0 released',
+            link: 'https://github.com/d3/d3/releases/tag/v1.0.0',
+            icon: 'd3'
         }
     ]
 };

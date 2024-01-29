@@ -12,6 +12,12 @@ export default {
             title: 'Knockout 1.0 released',
             link: 'https://github.com/knockout/knockout/releases/tag/v1.0.0',
             icon: 'knockout'
+        },
+        {
+            date: '2010-01-12',
+            title: 'NPM is released',
+            link: 'https://www.npmjs.com/',
+            icon: 'npm'
         }
     ]
 };

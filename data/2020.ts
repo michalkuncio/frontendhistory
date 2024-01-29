@@ -50,10 +50,22 @@ export default {
             icon: 'angular'
         },
         {
+            date: '2020-05-13',
+            title: 'Deno v1.0 released',
+            link: 'https://deno.land/v1',
+            icon: 'deno'
+        },
+        {
             date: '2020-04-21',
             title: 'Node.js 14.0 released',
             link: 'https://github.com/nodejs/node/releases/tag/v14.0.0',
             icon: 'node'
+        },
+        {
+            date: '2020-02-19',
+            title: 'AlpineJS 2.0 released',
+            link: 'https://github.com/alpinejs/alpine/releases/tag/v2.0.0',
+            icon: 'alpine'
         },
         {
             date: '2020-02-06',

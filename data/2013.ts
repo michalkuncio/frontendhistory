@@ -14,6 +14,12 @@ export default {
             icon: 'ember'
         },
         {
+            date: '2013-07-02',
+            title: 'D3.js 3.0 released',
+            link: 'https://github.com/d3/d3/releases/tag/v3.0.0',
+            icon: 'd3'
+        },
+        {
             date: '2013-05-29',
             title: 'First public release of React (version 0.3.0)',
             link: 'https://github.com/facebook/react/releases/tag/v0.3.0',

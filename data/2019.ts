@@ -2,6 +2,12 @@ export default {
     year: 2019,
     items: [
         {
+            date: '2019-12-18',
+            title: 'AlpineJS 1.0 released',
+            link: 'https://github.com/alpinejs/alpine/releases/tag/v1.0.0',
+            icon: 'alpine'
+        },
+        {
             date: '2019-10-22',
             title: 'Node.js 13.0 released',
             link: 'https://github.com/nodejs/node/releases/tag/v13.0.0',
@@ -12,6 +18,12 @@ export default {
             title: 'Next.js 9.0 released',
             link: 'https://github.com/vercel/next.js/releases/tag/v9.0.0',
             icon: 'next'
+        },
+        {
+            date: '2019-06-04',
+            title: 'NPM passes 1 million packages',
+            link: 'https://snyk.io/blog/npm-passes-the-1-millionth-package-milestone-what-can-we-learn/',
+            icon: 'npm'
         },
         {
             date: '2019-05-28',
