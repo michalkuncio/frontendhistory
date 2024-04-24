@@ -35,6 +35,7 @@ This is a long-term community project that will be as valuable as its contributi
 - For new history entries, navigate to the appropriate year inside `/data` directory
 - data should follow chronological order, there is no additional sorting
 - It should follow the the following structure:
+
 ```js
 export default {
     year: 2004,
@@ -59,5 +60,6 @@ export default {
 - [CARLOSGINER](https://github.com/CARLOSGINER)
 - [eranshmil](https://github.com/eranshmil)
 - [Kaamkiya](https://github.com/Kaamkiya)
+- [danielroe](https://github.com/danielroe)
 
 <p>contribute and get listed here! 🥳</p>
