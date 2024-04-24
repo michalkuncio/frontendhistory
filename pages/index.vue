@@ -7,6 +7,8 @@ useHead({
 </script>
 
 <template>
-    <Hero />
-    <History />
+    <div>
+        <Hero />
+        <History />
+    </div>
 </template>

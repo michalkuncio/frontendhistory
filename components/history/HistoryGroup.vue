@@ -2,9 +2,8 @@
 import type { HistoryGroup } from '@/types/history';
 
 defineProps<{
-    historyGroup: HistoryGroup
+    historyGroup: HistoryGroup;
 }>();
-
 </script>
 
 <template>

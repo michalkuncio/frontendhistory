@@ -2,7 +2,7 @@
 const faqItems = [
     {
         question: 'I want to contribute and add some new items. Which items will be accepted?',
-        answer: "If you think it's important to the frontend community, go ahead and add it. Adding JS libraries can be a tad trickier because if we were to include every single JS package in this calendar, it'd be way too big. I think we should only list the relevant packages here, so you got to decide for yourself if a library is worth adding."
+        answer: 'If you think it\'s important to the frontend community, go ahead and add it. Adding JS libraries can be a tad trickier because if we were to include every single JS package in this calendar, it\'d be way too big. I think we should only list the relevant packages here, so you got to decide for yourself if a library is worth adding.'
     },
     {
         question: 'What stack is used here?',

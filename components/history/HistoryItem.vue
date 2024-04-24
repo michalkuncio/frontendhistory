@@ -3,8 +3,8 @@ import { useDateFormat } from '@vueuse/core';
 import type { HistoryItem } from '@/types/history';
 
 interface Props {
-    historyItem: HistoryItem
-    index: number
+    historyItem: HistoryItem;
+    index: number;
 }
 
 const props = defineProps<Props>();
@@ -20,8 +20,8 @@ const iconComponent = computed(() => {
 </script>
 
 <template>
-    <div class="history-item" :class="{right: right}">
-        <span v-if="right" class="date" :class="{'no-exact': !props.historyItem.date}">{{ dateFormatted }}</span>
+    <div class="history-item" :class="{ right: right }">
+        <span v-if="right" class="date" :class="{ 'no-exact': !props.historyItem.date }">{{ dateFormatted }}</span>
 
         <div class="history-item-card">
             <div class="icon-wrapper">
@@ -33,7 +33,7 @@ const iconComponent = computed(() => {
             </div>
         </div>
 
-        <span v-if="!right" class="date" :class="{'no-exact': !props.historyItem.date}">{{ dateFormatted }}</span>
+        <span v-if="!right" class="date" :class="{ 'no-exact': !props.historyItem.date }">{{ dateFormatted }}</span>
     </div>
 </template>
 

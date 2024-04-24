@@ -31,7 +31,6 @@ useSeoMeta({
     twitterImage: 'https://frontendhistory.com/twittercard.jpg',
     twitterCard: 'summary'
 });
-
 </script>
 
 <template>
