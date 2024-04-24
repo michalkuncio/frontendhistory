@@ -33,5 +33,4 @@ h1 {
     background-image: linear-gradient(45deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3), var(--gradient-color-4));
     -webkit-text-fill-color: transparent;
 }
-
 </style>
