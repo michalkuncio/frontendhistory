@@ -8,7 +8,7 @@ export default {
             icon: 'node'
         },
         {
-            date: '2024-04-24',
+            date: '2024-04-16',
             title: 'pnpm 9.0 released',
             link: 'https://github.com/pnpm/pnpm/releases/tag/v9.0.0',
             icon: 'pnpm'

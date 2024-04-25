@@ -21,7 +21,7 @@ export default {
         },
         {
             date: '2018-09-21',
-            title: 'Nuxt 1.0 released',
+            title: 'Nuxt 2.0 released',
             link: 'https://github.com/nuxt/nuxt/releases/tag/v2.0.0',
             icon: 'nuxt'
         },
@@ -81,7 +81,7 @@ export default {
         },
         {
             date: '2018-01-08',
-            title: 'Nuxt 2.0 released',
+            title: 'Nuxt 1.0 released',
             link: 'https://github.com/nuxt/nuxt/releases/tag/v1.0.0',
             icon: 'nuxt'
         }
