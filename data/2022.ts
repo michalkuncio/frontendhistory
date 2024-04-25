@@ -44,6 +44,12 @@ export default {
             icon: 'vite'
         },
         {
+            date: '2022-06-15',
+            title: 'IE 11 retired 🥳',
+            link: 'https://blogs.windows.com/windowsexperience/2021/05/19/the-future-of-internet-explorer-on-windows-10-is-in-microsoft-edge/',
+            icon: 'ie'
+        },
+        {
             date: '2022-06-02',
             title: 'Angular 14.0 released',
             link: 'https://github.com/angular/angular/releases/tag/14.0.0',
