@@ -61,5 +61,6 @@ export default {
 - [eranshmil](https://github.com/eranshmil)
 - [Kaamkiya](https://github.com/Kaamkiya)
 - [danielroe](https://github.com/danielroe)
+- [mario-neuhold](https://github.com/mario-neuhold)
 
 <p>contribute and get listed here! 🥳</p>
