@@ -40,7 +40,7 @@ export default {
         {
             date: '2022-06-28',
             title: 'Solid.js 1.0 released',
-            link: 'https://github.com/vercel/next.js/releases/tag/v11.0.0',
+            link: 'https://github.com/solidjs/solid/releases/tag/v1.0.0',
             icon: 'solid'
         },
         {
