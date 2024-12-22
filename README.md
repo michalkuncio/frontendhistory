@@ -62,5 +62,6 @@ export default {
 - [Kaamkiya](https://github.com/Kaamkiya)
 - [danielroe](https://github.com/danielroe)
 - [mario-neuhold](https://github.com/mario-neuhold)
+- [DKAMX](https://github.com/DKAMX)
 
 <p>contribute and get listed here! 🥳</p>
